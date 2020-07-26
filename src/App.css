@@ -1,0 +1,11 @@
+.App {
+  margin: 20px;
+  padding: 20px;
+  background-color: #29b6b8;
+  color: #fff;
+  display: inline-block;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

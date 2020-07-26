@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { getConfig } from './config';
+import runtimeEnv from './config/loadRuntimeEnv';
 
 function App() {
   return (
     <div className="App">
-      <pre>{JSON.stringify(getConfig(), null, 2)}</pre>
+      <pre>{JSON.stringify(runtimeEnv(), null, 2)}</pre>
     </div>
   );
 }

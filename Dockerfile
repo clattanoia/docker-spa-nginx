@@ -8,8 +8,8 @@ COPY build /app
 
 ENV CONFIG_FILE_PATH /app
 
-ADD ci/json_env /usr/local/bin/
-COPY ci/start-container.sh /usr/local/bin/start-container
+ADD scripts/json_env /usr/local/bin/
+COPY scripts/start-container.sh /usr/local/bin/start-container
 RUN chmod +x /usr/local/bin/json_env
 RUN chmod +x /usr/local/bin/start-container
 
